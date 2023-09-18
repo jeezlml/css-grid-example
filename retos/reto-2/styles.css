@@ -1,47 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  .contenedor {
-    border: 5px solid #e1c9f8;
-    background-color: #ece0f8;
-    display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-auto-columns: 200px;
-    grid-auto-flow: column;
-    justify-content: center;
-    gap: 20px;
-    width: 80%;
-    margin: 50px;
-  }
-  
-  .item {
-    border-radius: 8px;
-    background-color: #f1ebff;
-    color: #ffffff;
-    margin: 10px 0 10px 0;
-    font-size: 3rem;
-    font-family: "Dosis", sans-serif;
-    display: grid;
-    align-items: end;
-    justify-content: end;
-    padding: 10px;
-  }
-  
-  .item:nth-child(2),
-  .item:nth-child(5) {
-    background-color: #e4d6ff;
-  }
-  .item:nth-child(3),
-  .item:nth-child(6) {
-    background-color: #cda5f3;
-  }
-  
-  span {
-    background-color: #8674aa;
-    border-radius: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 10px;
-  }
-  
+.contenedor {
+  background-color: #d7ed7f46;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+  place-content: center;
+}
+
+.item {
+  display: grid;
+  background-color: #acd900;
+  align-items: end;
+}
+
+span {
+  display: grid;
+  background: #39630c;
+  width: 50px;
+  height: 60px;
+  color: #fff;
+  font-family: 'Dosis';
+  font-weight: 300;
+  font-size: 2rem;
+  justify-self: end;
+  justify-items: end;
+  align-items: end;
+}
